@@ -1,0 +1,10 @@
+1. Logo needs to be animated every time on screen refresh.
+2. Vertical navigation bar with the following buttons:
+   i. Home
+   ii. About us
+   iii. Services
+   iv. Location
+   v. Contact
+
+
+Update file every day. Cheers!!!
