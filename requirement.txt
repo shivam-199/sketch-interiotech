@@ -5,6 +5,8 @@
    iii. Services
    iv. Location
    v. Contact
-
+3. Basic slider code has been uploaded and needs to be incorporated to the main page.
+4. Home page should be completed asap.
+5. Points 2.ii through to 2.v will be completed as soon as we receive the write-up. Till then we will design the pages with dummy data.
 
 Update file every day. Cheers!!!
