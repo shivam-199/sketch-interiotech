@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Sketch Homes</title>
+      <link rel="stylesheet" href="2.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <link rel="stylesheet" type="text/css" href="lightbox.min.css">
+      <script type="text/javascript" src="lightbox-plus-jquery.min.js"></script>
+
+</head>
+<body>
+      <div class="wrapper" id="services">
+            <header>
+
+                  <nav>
+
+                        <div class="menu-icon">
+                              <i class="fa fa-bars fa-2x"></i>
+                        </div>
+
+                        <div >
+                              <img class="logo" src = "https://s26.postimg.cc/418zq26ax/logo.jpg" alt="logo">
+                        </div>
+
+                        <div class="menu">
+                              <ul>
+                                    <li><a href="1.html">Home</a></li>
+                                    <li><a href="2.html">Services</a></li>
+                                    <li><a href="#contact">Contact</a></li>
+                                    <li><a href="#about">About</a></li>
+
+
+                              </ul>
+                        </div>
+                  </nav>
+
+            </header>
+
+            <div class="content">
+                  <br><div style="text-align: left;">Services</div><br>
+                  <p>
+                        Sketchomes is a full service interior design firm that offers design and decorating solutions to residential and small scale commercial projects. We offer interior design and decorating services in the Tri – Major area like Mumbai,Navi Mumbai and  Delhi NCR. <br><br>
+                        Our services are available to you if you live in Mumbai, Navi Mumbai, Delhi NCR or Gurgaon.
+                  </p>
+                  <br><div style="text-align: left; font-size:30px; ">OUR SERVICES INCLUDE:</div><br>
+                  <p>
+                        Furniture layouts using new and existing furnitureSpace planningFloor plans, elevations, details and renderings Custom furniture, cabinet and millwork designKitchen and bathroom design Preconstruction services – Helping clients to communicate interior elements needed by architects and contractors prior to and during the construction processADA services – provide design services for clients with special needs. <br><br>
+                        Location And Range Of Services: 50 Km Radius From the Centre of the City.
+                  </p>
+                  <br><div style="text-align: left; font-size:30px; ">ENVIRONMENTAL SERVICES</div><br>
+                  <p>
+                        Specification of “sustainable products” experience working on residential homes seeking UrbanClap Certification providing a standard for environmentally sustainable construction
+                  </p>
+            </div>
+
+            <div class="gallery">
+                  <br><div style="text-align: left; font-size:50px; "> OUR WORK PRODUCT: </div><br>
+                  <a href="images/1.jpg" data-lightbox="mygallery"><img src="images/1.jpg"></a>
+                  <a href="images/2.jpg" data-lightbox="mygallery"><img src="images/2.jpg"></a>
+                  <a href="images/3.jpg" data-lightbox="mygallery"><img src="images/3.jpg"></a>
+                  <a href="images/4.jpg" data-lightbox="mygallery"><img src="images/4.jpg"></a>
+                  <a href="images/5.jpg" data-lightbox="mygallery"><img src="images/5.jpg"></a>
+                  <a href="images/6.jpg" data-lightbox="mygallery"><img src="images/6.jpg"></a>
+                  <a href="images/7.jpg" data-lightbox="mygallery"><img src="images/7.jpg"></a>
+                  <a href="images/8.jpg" data-lightbox="mygallery"><img src="images/8.jpg"></a>
+                  <a href="images/9.jpg" data-lightbox="mygallery"><img src="images/9.jpg"></a>
+                  <a href="images/10.jpg" data-lightbox="mygallery"><img src="images/10.jpg"></a>
+            </div>
+      </div>
+
+    <script type="text/javascript">
+
+      // Menu toggle button
+          $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+
+    </script>
+</body>
+</html>
